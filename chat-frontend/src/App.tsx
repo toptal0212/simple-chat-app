@@ -17,7 +17,7 @@ const App = () => {
         <Link to="/logout"> [logout] </Link>
         <hr />
         <main>
-          <Routes>
+          <Routes> 
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/logout" element={<Logout />} />
